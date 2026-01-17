@@ -2,7 +2,7 @@
 
 A modern web application for analyzing poker starting hand equities using Monte Carlo simulation. Built with Next.js, React, TypeScript, and Tailwind CSS.
 
-**Live Demo:** [https://poker-equity-calculator-eta.vercel.app/](https://poker-equity-calculator-eta.vercel.app/)
+**Live Demo:** [https://poker-equity-analyzer.vercel.app/](https://poker-equity-analyzer.vercel.app/)
 
 ## Features
 
@@ -29,8 +29,8 @@ A modern web application for analyzing poker starting hand equities using Monte 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/addice-Jeremy/poker-equity-calculator.git
-cd poker-equity-calculator
+git clone https://github.com/addice-Jeremy/poker-equity-analyzer.git
+cd poker-equity-analyzer
 ```
 
 2. Install dependencies:
@@ -55,7 +55,7 @@ npm start
 ## Project Structure
 
 ```
-poker-equity-calculator/
+poker-equity-analyzer/
 ├── app/                    # Next.js app directory
 │   ├── api/               # API routes
 │   ├── globals.css        # Global styles
@@ -92,7 +92,7 @@ python generate_equity_data.py --sims 100000
 
 Deploy to Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/addice-Jeremy/poker-equity-calculator)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/addice-Jeremy/poker-equity-analyzer)
 
 ## License
 
